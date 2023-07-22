@@ -2,8 +2,8 @@
 
 const InformationCard = () => {
   return (
-    <section className='w-[375px] px-8 py-4 flex flex-col items-center gap-y-3 bg-white '>
-        <div className="bg-[#0c494c] rounded-xl p-6 pt-9 w-full">
+    <section className='w-[375px] px-8 py-4 flex flex-col items-center gap-y-3 bg-white md:py-8 md:rounded-r-2xl'>
+        <div className="bg-[#0c494c] rounded-2xl p-6 pt-9 w-full md:h-full">
             <article className="w-full flex justify-between pb-7">
                 <div>
                     <div className="text-white font-semibold ">Tip Amount</div>

@@ -9,13 +9,13 @@ function App() {
 
   return (
     <>
-      <div className='flex justify-center items-center bg-blue-300 md:h-screen'>
+      <div className='flex justify-center items-center bg-[#c4e3e7] md:h-screen'>
         <section className='font-space-mono flex flex-col  items-center w-full '>
             <div className=''>
               <div className=' '>
                 <LabelCard />
               </div>
-            <div className='flex flex-col md:flex-row'>
+            <div className='flex flex-col md:flex-row '>
               <InputCard className=''/>
               <InformationCard className=''/>
             </div>
