@@ -8,7 +8,7 @@ const LabelCard = () => {
             <div>SPLI</div>
             <div>TTER</div>
         </div>
-        <div>
+        <div className=''>
             <InputCard />
             <InformationCard />
         </div>
