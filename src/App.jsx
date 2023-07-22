@@ -9,9 +9,9 @@ function App() {
 
   return (
     <>
-      <div className='h-screen flex justify-center items-center bg-blue-300 '>
-        <section className='font-space-mono flex flex-col  items-center  bg-green-400 w-full '>
-            <div className='border border-black'>
+      <div className='flex justify-center items-center bg-blue-300 md:h-screen'>
+        <section className='font-space-mono flex flex-col  items-center w-full '>
+            <div className=''>
               <div className=' '>
                 <LabelCard />
               </div>

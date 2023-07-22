@@ -2,7 +2,7 @@
 
 const InformationCard = () => {
   return (
-    <section className='h-[205px] w-[375px]  md:h-[330px] p-6 flex flex-col items-center gap-y-3'>
+    <section className='w-[375px] p-6 flex flex-col items-center gap-y-3 bg-white'>
         <div className="bg-[#0c494c] rounded-xl p-6 w-full">
             <article className="w-full flex justify-between">
                 <div>
