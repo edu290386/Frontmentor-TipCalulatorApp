@@ -3,8 +3,8 @@ import InformationCard from './InformationCard'
 
 const LabelCard = () => {
   return (
-    <div className='bg-[#c4e3e7] h-[100px] tracking-widest'>
-        <div className='text-3xl text-white text-center'>
+    <div className='w-[375px] bg-[#c4e3e7] tracking-widest '>
+        <div className='text-3xl text-[#0c494c] text-center h-[100px]'>
             <div>SPLI</div>
             <div>TTER</div>
         </div>

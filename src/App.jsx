@@ -8,13 +8,12 @@ function App() {
 
   return (
     <>
-      <section className='h-screen flex justify-center align-middle items-center'>
-        <div className='w-[375px]  m-auto border'>
-          <LabelCard />
-
-        </div>
-
-      </section>
+      <div>
+        <section className='flex items-center justify-center bg-yellow-300 h-screen'>
+            <LabelCard />
+        </section>
+      </div>
+      
 
     </>
   )
