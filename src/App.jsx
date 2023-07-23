@@ -1,7 +1,7 @@
 
 import './App.css'
 import InputCard from './components/InputCard'
-import InformationCard from './components/InformationCard'
+
 import LabelCard from './components/LabelCard'
 
 function App() {
@@ -15,9 +15,9 @@ function App() {
               <div className=' '>
                 <LabelCard />
               </div>
-            <div className='flex flex-col md:flex-row '>
+            <div className=' '>
               <InputCard className=''/>
-              <InformationCard className=''/>
+        
             </div>
             </div>
         </section>
