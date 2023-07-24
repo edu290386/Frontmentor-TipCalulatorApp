@@ -19,8 +19,8 @@ const InformationCard = ({ values, setValues }) => {
       const calculateTotal =
         Number(values.amount) / Number(values.people) + calculateTip;
 
-      setMoney(calculateTip);
-      setMoneyTotal(calculateTotal);
+      setMoney(calculateTip.toFixed(2));
+      setMoneyTotal(calculateTotal.toFixed(2));
     }
   }, [values]);
 

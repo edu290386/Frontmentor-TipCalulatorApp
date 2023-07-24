@@ -78,7 +78,7 @@ const InputCard = () => {
               onChange={handleChange}
               name="people"
               value={values.people || ""}
-              className={(values.people == 0) ? "w-full py-2 text-2xl text-right font-bold rounded-lg bg-[#f3f8fb] pr-4 focus:outline-red-500 border-2 border-red-500  " : "w-full py-2 text-2xl text-right font-bold rounded-lg text-[#0c494c] bg-[#f3f8fb] pr-4 focus:outline-[#30c1ad] hover:cursor-pointer"}
+              className={(values.people == 0) ? "w-full py-2 text-2xl text-right font-bold rounded-lg bg-[#f3f8fb] pr-4 focus:outline-red-500 border border-red-500  " : "w-full py-2 text-2xl text-right font-bold rounded-lg text-[#0c494c] bg-[#f3f8fb] pr-4 focus:outline-[#30c1ad] hover:cursor-pointer"}
               placeholder="0"
             />
           </div>
