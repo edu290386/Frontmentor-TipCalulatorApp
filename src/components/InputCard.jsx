@@ -78,7 +78,7 @@ const InputCard = () => {
           </div>
         </div>
       </div>
-      <InformationCard values={values}/>
+      <InformationCard values={values} setValues={setValues}/>
     </div>
   );
 };
