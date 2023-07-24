@@ -11,6 +11,9 @@ const InputCard = () => {
     let { name, value } = e.target;
     if (value.includes("e")) return (value = "");
     if (!isNaN(value)) {
+      if (value === '0') {
+        value = '';
+      }
       setValues({ ...values, [name]: value });
     }
   };
@@ -64,7 +67,10 @@ const InputCard = () => {
               placeholder="Custom"
             />
           </div>
-          <h2 className="my-2 pt-4 ">Number of People</h2>
+          <div className="flex justify-between">
+            <h2 className="my-2 pt-4 ">Number of People</h2>
+            <h2 className={(values.people == 0) ? "my-2 pt-4 text-red-500" : "hidden"}>Can&apos;t be zero</h2>
+          </div>
           <div className="relative">
             <img src={person} className="absolute top-4 left-4" alt="" />
             <input
@@ -72,7 +78,7 @@ const InputCard = () => {
               onChange={handleChange}
               name="people"
               value={values.people || ""}
-              className="w-full py-2 text-2xl text-right font-bold rounded-lg text-[#0c494c] bg-[#f3f8fb] pr-4 focus:outline-[#30c1ad] hover:cursor-pointer"
+              className={(values.people == 0) ? "w-full py-2 text-2xl text-right font-bold rounded-lg bg-[#f3f8fb] pr-4 focus:outline-red-500 border-2 border-red-500  " : "w-full py-2 text-2xl text-right font-bold rounded-lg text-[#0c494c] bg-[#f3f8fb] pr-4 focus:outline-[#30c1ad] hover:cursor-pointer"}
               placeholder="0"
             />
           </div>

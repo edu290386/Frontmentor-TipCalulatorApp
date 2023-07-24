@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 const InformationCard = ({ values, setValues }) => {
   const [money, setMoney] = useState(0);
   const [moneyTotal, setMoneyTotal] = useState(0);
+  console.log(values)  
 
   useEffect(() => {
     if (
